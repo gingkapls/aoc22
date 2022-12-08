@@ -40,6 +40,8 @@ int main(void)
    }
   }
 
+  free(dataBuf)
+
   printf("The elf carrying most calories is elf %d carrying %d calories\n", most_cal_idx+1, most_cal);
 
 }
